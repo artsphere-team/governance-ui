@@ -22,17 +22,17 @@ export interface RealmInfo {
 // Hardcoded list of mainnet realms
 // TODO: Once governance program clones registry program and governance accounts metadata is on-chain the list should be moved there
 const MAINNET_REALMS: RealmInfo[] = [
-  // {
-  //   symbol: 'MNGO',
-  //   displayName: 'Mango DAO',
-  //   programId: new PublicKey('GqTPL6qRf5aUuqscLh8Rg2HTxPUXfhhAXDptTLhp1t2J'),
-  //   realmId: new PublicKey('DPiH3H3c7t47BMxqTxLsuPQpEC6Kne8GA9VXbxpnZxFE'),
-  //   website: 'https://mango.markets',
-  //   keywords:
-  //     'Mango Markets, REALM, Governance, Serum, SRM, Serum DEX, DEFI, Decentralized Finance, Decentralised Finance, Crypto, ERC20, Ethereum, Decentralize, Solana, SOL, SPL, Cross-Chain, Trading, Fastest, Fast, SerumBTC, SerumUSD, SRM Tokens, SPL Tokens',
-  //   twitter: '@mangomarkets',
-  //   ogImage: 'https://trade.mango.markets/assets/icons/logo.svg',
-  // },
+  {
+    symbol: 'MNGO',
+    displayName: 'Mango DAO',
+    programId: new PublicKey('GqTPL6qRf5aUuqscLh8Rg2HTxPUXfhhAXDptTLhp1t2J'),
+    realmId: new PublicKey('DPiH3H3c7t47BMxqTxLsuPQpEC6Kne8GA9VXbxpnZxFE'),
+    website: 'https://mango.markets',
+    keywords:
+      'Mango Markets, REALM, Governance, Serum, SRM, Serum DEX, DEFI, Decentralized Finance, Decentralised Finance, Crypto, ERC20, Ethereum, Decentralize, Solana, SOL, SPL, Cross-Chain, Trading, Fastest, Fast, SerumBTC, SerumUSD, SRM Tokens, SPL Tokens',
+    twitter: '@mangomarkets',
+    ogImage: 'https://trade.mango.markets/assets/icons/logo.svg',
+  },
 
   // {
   //   symbol: 'SOCEAN',
@@ -70,6 +70,7 @@ const MAINNET_REALMS: RealmInfo[] = [
     programId: new PublicKey('GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw'),
     realmId: new PublicKey('3r8n8BJMyJKBMGh72YiWfkiEMx84m5Xr1FpXSLZs16E3'),
     website: 'https://www.kekw.io/',
+    twitter: '@kekwcoin',
     ogImage:
       'https://kidsbeatcancer-website-cxudfhfqh-dartw.vercel.app/content/images/jojo-logo-white.png',
   },
