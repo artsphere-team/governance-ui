@@ -261,7 +261,7 @@ const useWalletStore = create<WalletStore>((set, get) => ({
       })
     },
     async fetchAllRealms(programId: PublicKey) {
-      console.log('fetchAllRealms', programId.toBase58())
+      console.log('fetchAllRealms for ', ENDPOINT, programId.toBase58())
 
       const connection = get().connection.current
       const endpoint = get().connection.endpoint
