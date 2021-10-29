@@ -145,7 +145,7 @@ async function resolveProposalDescription(description: string) {
 export const ENDPOINTS: EndpointInfo[] = [
   {
     name: 'mainnet',
-    url: 'https://mango.rpcpool.com',
+    url: 'https://api.metaplex.solana.com/',
   },
   {
     name: 'devnet',
